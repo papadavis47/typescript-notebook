@@ -8,7 +8,7 @@ import Subheading from '../components/elements/Subheading.astro';
 import Pre from '../components/elements/Pre.astro';
 export const components = { p: Paragraph, h1: Heading, h2: Subheading, pre: Pre };
 
-# Go Notebook
+# TypeScript Notebook
 
 ## This is a subheading component - written in MDX/Markdown.
 
@@ -16,14 +16,14 @@ This is a paragraph.
 
 ## The following is syntax highlighting:
 
-```go:src/main.go
-package main
+```ts:src/main.ts
 
-import "fmt"
+import { MyComponent } from '@/components/Supercool'
 
-func main() {
-	fmt.Println("Whatever")
+funcion add(num1: number, num2: number): number {
+	return num1 + num2
 }
+
 ```
 
 So this is where I can write some more.

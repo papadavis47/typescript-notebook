@@ -1,5 +1,5 @@
-# Go Notebook
+# TypeScript Notebook
 
-Learning Go.
+Learning TypeScript.
 
 This is a work in progress . . .
