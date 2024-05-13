@@ -1,0 +1,45 @@
+---
+layout: '../layouts/MDXLayout.astro'
+---
+
+import Paragraph from '../components/elements/Paragraph.astro';
+import Heading from '../components/elements/Heading.astro';
+import Subheading from '../components/elements/Subheading.astro';
+import Pre from '../components/elements/Pre.astro';
+export const components = { p: Paragraph, h1: Heading, h2: Subheading, pre: Pre };
+
+# Go Notebook
+
+## This is a subheading component - written in MDX/Markdown.
+
+This is a paragraph.
+
+## The following is syntax highlighting:
+
+```go:src/main.go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Whatever")
+}
+```
+
+So this is where I can write some more.
+
+And some more here.
+
+And here is some more text.
+
+**Bold text here**
+
+_And italic text here_
+
+---
+
+# Another Heading Example
+
+## And Another subheading
+
+And some more information.
